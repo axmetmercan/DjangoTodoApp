@@ -1,0 +1,34 @@
+.navbar {
+    height: 8vh;
+}
+.homepage {
+    height: 92vh;
+}
+
+.main-page {
+    width: 150px;
+}
+
+.todo-form {
+    width: 70%;
+}
+
+.table {
+    width: 80%;
+}
+
+.img-fluid{
+    width: 75px;
+    height: 75px;
+    
+}
+
+
+.second-page{
+    min-height: 70vh;
+}
+
+.dont-have{
+    min-height: 90vh;
+}
+

@@ -1,0 +1,19 @@
+{% extends 'layouthp.html' %}
+
+
+{% block homepage %}
+
+<div class="whole-page bg-light" id="deneme-vanta">
+    {% include 'include/navbar.html' %}
+
+
+
+    <div class="container container-fluid d-flex flex-column align-items-center justify-content-center homepage " >
+        <a href="{% url 'core:addtodo' %}" class="btn btn-success main-page m-2" >Create New Todo</a> 
+        <a href="{% url 'core:mytodos' %}" class="btn btn-primary main-page m-2">My Old Todo's</a>
+    </div>
+</div>
+
+
+    
+{% endblock  %}
